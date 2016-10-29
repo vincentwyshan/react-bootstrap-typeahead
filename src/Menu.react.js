@@ -9,6 +9,7 @@ const BaseMenu = props => (
   <ul
     {...props}
     className={cx('dropdown-menu', props.className)}>
+    <li style={{borderBottom: "#999 1px solid"}}><span style={{marginLeft: "8px"}}>RECENT SYMBOLS</span></li>
     {props.children}
   </ul>
 );
